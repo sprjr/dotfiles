@@ -1,5 +1,9 @@
+#!/bin/sh
+
+export dotfiles="${BASH_SOURCE%/*}"
+
 # include alias setup
-source .alias.sh
+source $dotfiles/.alias.sh
 
 # include git setup
-source .git.sh
+source $dotfiles/.git.sh
