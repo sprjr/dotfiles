@@ -1,4 +1,6 @@
 #!/bin/sh
+echo 'loading shell with .stephen'
+# export SHELL=/bin/zsh
 
 export dotfiles="${BASH_SOURCE%/*}"
 
