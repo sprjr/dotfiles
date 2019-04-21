@@ -1,11 +1,12 @@
 #!/bin/sh
 echo 'loading shell with .stephen'
-# export SHELL=/bin/zsh
 
-export dotfiles="${BASH_SOURCE%/*}"
+# likely should check $DOTFILES is set, relying on that from ~/.zshrc
+# but perhaps could organize that better and pull that into my own
+# dotfiles project
 
 # include alias setup
-source $dotfiles/.alias.sh
+source $DOTFILES/.alias.sh
 
 # include git setup
-source $dotfiles/.git.sh
+# source $dotfiles/.git.sh
