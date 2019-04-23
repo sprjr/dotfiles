@@ -1,12 +1,5 @@
 #!/bin/sh
 echo 'loading shell with .stephen'
 
-# likely should check $DOTFILES is set, relying on that from ~/.zshrc
-# but perhaps could organize that better and pull that into my own
-# dotfiles project
-
-# include alias setup
-source $DOTFILES/.alias.sh
-
 # include git setup
 # source $dotfiles/.git.sh
