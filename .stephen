@@ -1,5 +1,2 @@
-#!/bin/sh
+#!/bin/zsh
 echo 'loading shell with .stephen'
-
-# include git setup
-# source $dotfiles/.git.sh
